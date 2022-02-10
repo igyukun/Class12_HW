@@ -77,7 +77,7 @@ public class RESTCountries {
     public static String getUserInput(){
         System.out.print("\nEnter the country name (type 'exit' to terminate): ");
         Scanner scanner = new Scanner(System.in);
-        return scanner.next();
+        return scanner.nextLine();
     }
 
     /**
