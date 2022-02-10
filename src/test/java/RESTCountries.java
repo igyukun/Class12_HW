@@ -101,7 +101,6 @@ public class RESTCountries {
 
             //Iterate through the array and print the borders
             for (int i = 0; i < borders.length(); i++) {
-                String bord = borders.getString(i);
                 System.out.print(" " + borders.getString(i) + " ");
             }
         }catch (JSONException e){
